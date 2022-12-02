@@ -2,8 +2,13 @@
   "name": "test",
   "version": "0.0.0",
   "private": true,
+ "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
